@@ -208,6 +208,7 @@ button {
     border: 1px solid #7562E0;
     cursor: pointer;
     transition: all 0.5s linear;
+    color: white;
 }
 
 button:hover {
