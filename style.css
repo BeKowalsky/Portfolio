@@ -173,7 +173,7 @@ img {
 }
 
 .skills > ul > li:hover > img {
-    filter: blur(5px);
+    filter: blur(8px);
     -webkit-filter: blur(8px);
     -moz-filter: blur(8px);
     -o-filter: blur(8px);
