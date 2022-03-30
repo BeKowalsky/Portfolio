@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Kowalsky</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="menu">
+        <div id="titulo">
+            <h1>Dev Kowalsky</h1>
+        </div>
+        <div id="menuList">
+            <ul>
+                <li class="home">
+                    <a href="./index.html">Home</a>
+                    <div class="linhaHome"></div>
+                </li>
+                <li class="sobre">
+                    <a href="#about">Sobre</a>
+                    <div class="linhaSobre linhasMenu"></div>
+                </li>
+                <li class="contato">
+                    <a href="#contact">Contato</a>
+                    <div class="linhaContato linhasMenu"></div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="intro">
+            <div class="apresent">
+                <p>Olá, meu nome é</p>
+                <p>Bernardo Magueta Kowalsky</p>
+                <p>Desenvolvedor Front-End Júnior</p>
+            </div>
+            <div class="img">
+                <img src="./assets/memoji.png" alt="Memoji baseado em Bernardo acenando">
+            </div>
+        </div>
+
+        <div class="principal">
+            <div class="about">
+                <h2 id="about">Sobre mim:</h2>
+                <p>Olá, meu nome é Bernardo, tenho 21 anos de idade e atualmente estou no 3˚ período de Ciência da Computação. Estou focando na área de front-end com JavaScript, Vue.JS, Bootstrap, Sass. Busco minha primeira oportunidade de emprego na área, me considero muito criativo e não desisto até finalizar o que comecei.</p>
+            </div>
+            <div class="skills">
+                <h2>Tecnologias:</h2>
+                <ul>
+                    <li>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="Logo HTML">
+                        <p class="nomeLinguagem">Html</p>
+                    </li>
+                    <li>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="Logo CSS">
+                        <p class="nomeLinguagem">Css</p>
+                    </li>
+                    <li>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="Logo JavaScript">
+                        <p class="nomeLinguagem">JavaScript</p>
+                    </li>
+                    <li>
+                        <img src="./assets/vue.png">
+                        <p class="nomeLinguagem">Vue.JS</p>
+                    </li>
+                    <li>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="Logo Figma">
+                        <p class="nomeLinguagem">Figma</p>
+                    </li>
+                    <li>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Logo Git">
+                        <p class="nomeLinguagem">Git</p>
+                    </li>
+                    <li>
+                        <img src="./assets/gitHub.png" alt="Logo GitHub">
+                        <p class="nomeLinguagem">GitHub</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact" id="contact">
+                <h2>Contato:</h2>
+                <form action="https://formsubmit.co/kwybernardo@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="obrigado.html">
+
+                    <label for="name">Nome<span> *</span></label>
+                    <input type="text" id="name" name="Nome" required>
+
+                    <label for="email">Email<span> *</span></label></label>
+                    <input type="text" id="email" name="Email" required>
+
+                    <label for="subject">Assunto<span> *</span></label></label>
+                    <input type="text" name="Assunto" required>
+
+                    <label for="message">Mensagem<span> *</span></label></label>
+                    <textarea name="Mensagem" id="message" cols="50" rows="15" required></textarea>
+
+                    <button>ENVIAR</button>
+                </form>
+            </div>
+            <div class="social">
+                <h2>Redes Sociais:</h2>
+                <a href="https://www.linkedin.com/in/bekowa/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="Linkedin" ></a>
+                <a href="https://github.com/BeKowalsky" target="_blank"><img src="./assets/gitHub.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/bernardokowalsky_/" target="_blank"><img src="./assets/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./scroll.js"></script>
+</body>
+</html>
