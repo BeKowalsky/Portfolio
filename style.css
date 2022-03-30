@@ -158,6 +158,7 @@ img {
 .skills > ul > li > img {
     width: 80px;
     transition: all 0.5s;
+    padding: 15px 15px 15px 15px;
 }
 
 .nomeLinguagem {
