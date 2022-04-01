@@ -169,6 +169,7 @@ img {
     text-transform: uppercase;
     cursor: default;
     transition: all 0.5s;
+    font-weight: bold;
 }
 
 .skills > ul > li:nth-child(3) > p {
