@@ -103,6 +103,12 @@ ul > li:first-child > a {
     padding: 10px;
     border-radius: 3px;
     font-size: 12px;
+    transition: all 0.5s;
+}
+
+#curriculumPDF:hover {
+    background-color: #7562e0bb;
+    transition: all 0.5s;
 }
 
 .img {
