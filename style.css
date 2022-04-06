@@ -102,7 +102,7 @@ ul > li:first-child > a {
     background-color: #7562E0;
     padding: 10px;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     transition: all 0.5s;
 }
 
@@ -299,4 +299,151 @@ footer {
     padding: 20px 0;
     font-size: 1.12rem;
     color: #7562E0;
+}
+
+@media screen and (max-width: 820px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    ul > li {
+        margin-right: 40px;
+    }
+
+    .apresent {
+        margin-left: 25px;
+    }
+
+    .apresent > p:first-child {
+        font-size: 2rem;
+    }
+    
+    .apresent > p:nth-child(2) {
+        font-size: 2.5rem;
+    }
+    
+    .apresent > p:last-child {
+        font-size: 1.25rem;
+    }
+
+    .img {
+        margin-right: 25px;
+    }
+    
+    img {
+        width: 200px;
+    }
+    
+    .contact > form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .apresent {
+        margin-left: 30px;
+    }
+
+    .img {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    ul > li > a {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    ul > li {
+        margin-right: 20px;
+    }
+
+    .img {
+        margin: 0 auto;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .apresent > p:first-child {
+        font-size: 20px;
+    }
+    
+    .apresent > p:nth-child(2) {
+        font-size: 25px;
+    }
+    
+    .apresent > #last {
+        font-size: 16px;
+    }
+
+    .apresent {
+        line-height: 4rem;
+    }
+
+    #curriculumPDF {
+        font-size: 15px;
+    }
+
+    .about {
+        width: 60%;
+    }
+
+    .about > p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .skills {
+        width: 60%; 
+    }
+
+    .skills > ul > li > img {
+        width: 35px;
+    }
+
+    #contact {
+        width: 60%;
+    }
+
+    .contact > form {
+        width: 100%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .nomeLinguagem {
+        font-size: 12px;
+    }
+
+    .skills > ul > li:nth-child(3) > p {
+        font-size: 9px;
+    }
+
+    .skills > ul > li:hover > img + .nomeLinguagem {
+        margin-top: -45px;
+    }
+
+    .social > a > img {
+        width: 40px;
+    }
 }
