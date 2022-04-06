@@ -416,7 +416,7 @@ footer {
     }
 
     .skills > ul > li > img {
-        width: 35px;
+        width: 60px;
     }
 
     #contact {
@@ -432,18 +432,27 @@ footer {
     }
 
     .nomeLinguagem {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .skills > ul > li:nth-child(3) > p {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     .skills > ul > li:hover > img + .nomeLinguagem {
-        margin-top: -45px;
+        margin-top: -60px;
     }
 
     .social > a > img {
         width: 40px;
+    }
+
+    .skills > ul > li:hover:last-child > img + .nomeLinguagem {
+        margin-top: -60px;
+        margin-bottom: 60px;
+    }
+
+    footer {
+        font-size: 14px;
     }
 }
