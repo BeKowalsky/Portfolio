@@ -96,6 +96,15 @@ ul > li:first-child > a {
     font-size: 1.25rem;
 }
 
+#curriculumPDF {
+    color: white;
+    text-decoration: none;
+    background-color: #7562E0;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
 .img {
     margin: auto;
     background-color: #7562E0;
