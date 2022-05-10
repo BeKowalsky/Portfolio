@@ -14,6 +14,20 @@ sobre.addEventListener('mouseout', () => {
     linhaHome.classList.remove('linhasMenu');
 });
 
+const projetos = document.querySelector('.projects');
+const linhaProjetos = document.querySelector('.linhaProjeto');
+projetos.addEventListener('mouseover', () => {
+    linhaProjetos.classList.add('linhasHover');
+    linhaHome.classList.remove('linhaHome');
+    linhaHome.classList.add('linhasMenu');
+});
+
+projetos.addEventListener('mouseout', () => {
+    linhaProjetos.classList.remove('linhasHover');
+    linhaHome.classList.add('linhaHome');
+    linhaHome.classList.remove('linhasMenu');
+});
+
 
 
 const contato = document.querySelector('.contato');
