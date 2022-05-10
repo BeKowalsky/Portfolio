@@ -16,6 +16,9 @@ header {
     justify-content: space-between;
     padding: 25px 90px 25px 90px;
     align-items: center;
+    width: 90vw;
+    position: fixed;
+    background-color: #181824;
 }
 
 h1 {
@@ -72,7 +75,7 @@ ul > li:first-child > a {
 .intro {
     background-color: #1a1a29;
     width: 100%;
-    height: max(600px ,calc(100vh - 5rem));
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -164,6 +167,7 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .skills > ul > li {
@@ -177,36 +181,38 @@ img {
 }
 
 .nomeLinguagem {
-    color: black;
+    color: white;
     text-align: center;
-    visibility: hidden;
-    font-size: 17px;
+    font-size: 16px;
     text-transform: uppercase;
-    cursor: default;
-    font-weight: bolder;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
-.skills > ul > li:nth-child(3) > p {
-    font-size: 14px;
+.projetos {
+    margin: 2rem 0 0 6rem;
 }
 
-.skills > ul > li:hover > img {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -o-filter: blur(8px);
-    -ms-filter: blur(8px);
-    transition: all 0.5s;
-    transform: scale(1.1, 1.1);
+.projetos-divs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
 }
 
-.skills > ul > li:hover > img + .nomeLinguagem {
-    visibility: visible;
-    position: relative;
-    text-align: center;
-    margin-top: -70px;
-    transition: all 0.5s;
+.projetos > h2 {
+    color: #7562E0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.projeto > a > img {
+    width: 400px;
+}
+
+.projeto > p {
+    margin-bottom: 3rem;
+    margin-top: .5rem;
 }
 
 .contact {
@@ -432,24 +438,11 @@ footer {
     }
 
     .nomeLinguagem {
-        font-size: 16px;
-    }
-
-    .skills > ul > li:nth-child(3) > p {
         font-size: 13px;
-    }
-
-    .skills > ul > li:hover > img + .nomeLinguagem {
-        margin-top: -60px;
     }
 
     .social > a > img {
         width: 40px;
-    }
-
-    .skills > ul > li:hover:last-child > img + .nomeLinguagem {
-        margin-top: -60px;
-        margin-bottom: 60px;
     }
 
     footer {
