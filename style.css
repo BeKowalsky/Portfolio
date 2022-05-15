@@ -17,8 +17,6 @@ header {
     padding: 25px 90px 25px 90px;
     align-items: center;
     width: 90vw;
-    position: fixed;
-    background-color: #181824;
 }
 
 h1 {
@@ -423,6 +421,14 @@ footer {
 
     .skills > ul > li > img {
         width: 60px;
+    }
+
+    .projeto > a > img {
+        width: 300px;
+    }
+
+    .projeto > p {
+        font-size: 14px;
     }
 
     #contact {
