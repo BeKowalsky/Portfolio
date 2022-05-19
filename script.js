@@ -50,5 +50,5 @@ const dataAtual = new Date();
 const anoAtual = dataAtual.getFullYear();
 console.log(anoAtual);
 
-const atualizaRodape = `Copyright © Bernardo Kowalsky - ${anoAtual}`;
+const atualizaRodape = `Copyright © Bernardo Kowalsky - ${anoAtual} `;
 rodape.innerText = atualizaRodape;
